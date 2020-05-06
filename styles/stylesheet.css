@@ -1,7 +1,7 @@
 h1, h2, footer{
   font-family: 'Oswald', sans-serif;
 }
-h3, h4,a {
+h3, h4,a, .about-me-box {
   font-family: 'Roboto', sans-serif;
 }
 h1 {
@@ -26,6 +26,10 @@ body {
 }
 .drawing {
   width:30%;
+}
+.drawing:hover, .drawing2:hover {
+  opacity: 0.3;
+  transition: .5s ease;
 }
 .me {
   width: 25%;
@@ -55,6 +59,7 @@ article {
   flex-direction: column;
   padding-right: 10px;
   padding-left: 10px;
+  
 }
 .drawings-column {
   flex: 33.33%;
@@ -68,17 +73,20 @@ nav {
   padding: 5px;
 }
 a.nav:visited, a.nav:link {
-    background-color: #f44336;
-    transition-duration: 0.4s;
-    border-radius: 8px;
-    color: white;
-    padding: 14px 25px;
-    text-decoration: none;
-    display: inline-block;  
+  background-color: #f44336;
+  transition-duration: 0.4s;
+  border-radius: 8px;
+  color: white;
+  padding: 14px 25px;
+  text-decoration: none;
+  display: inline-block;  
 }
 a.nav:hover, a.nav:active {
   background-color:red;
 }
 footer {
   color: white;
+}
+div.drawings-column:nth-child(odd) {
+  background-color: hsl(342, 65%, 35%);
 }
