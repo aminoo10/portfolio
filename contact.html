@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>My Portfolio | Contact</title>
+    <link rel="stylesheet" type="text/css" href="styles/stylesheet.css">
+    <link href="https://fonts.googleapis.com/css2?family=Oswald:wght@500&family=Roboto:wght@500&display=swap" rel="stylesheet">
+    <script src="https://kit.fontawesome.com/3e4abff863.js" crossorigin="anonymous"></script>
+  </head>
+  <body>
+    <header>
+      <h1>Contact</h1>
+      <hr>
+      <nav>
+        <a class="nav" href="index.html">Portfolio</a>
+        <a class="nav" href="about-me.html">About</a>
+      </nav>
+      <hr>
+    </header>
+    <article class="contact-form">
+      <h2>If you have any questions, comments, or feedback, please feel free to reach out!</h2>
+      <form method="GET">
+          <label class="text-label"> Name
+            <input type="text" name="name">
+          </label>
+    
+          <label class="text-label"> Email
+            <input type="email" name="email">
+          </label>
+
+          <label id="city-label"> City
+            <input type="text" name="city">
+          </label>
+        
+        <label id="comment-label"> Comment
+          <textarea name="message" required rows="4" cols="50"></textarea>
+        </label>
+
+        <fieldset>
+          <legend>Would you recommend or share my portfolio with a peer or aquaintance?</legend>
+            <label>
+              <input type="radio" name="recommend" value="yes">
+              Haha yeah sure.
+            </label>
+            <label>
+              <input type="radio" name="recommend" value="no">
+              Nah, no way!!!!!!
+            </label>
+        </fieldset>
+
+        <input type="submit" value="Submit">
+
+      </form>
+    </article>
+    <hr>
+    <footer>
+      <p>This page made by Ash Minoo, &copy; 2020.</p>
+    </footer>
+  </body>
+</html>
